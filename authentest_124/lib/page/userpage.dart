@@ -23,10 +23,8 @@ class _UserPageState extends State<UserPage> {
           child: Form(
               child: ListView(
         children: [
-          Column(
-            children: [
-              widget.
-            ],
+          Row(
+            children: [Icon(Icons.add_a_photo)],
           )
         ],
       ))),

@@ -106,6 +106,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         if (_formKey.currentState!.validate()) {
                           print("OK");
                           print(_emailController.text);
+
                           AuthService.registerUser(_emailController.text,
                                   _passwordController.text)
                               .then((value) {
